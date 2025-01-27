@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Q8STORE</title>
+      <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+      <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" href="/101PostgreSQL/css/style.css">
+
+</head>
+
+<body class="w3-content w3-container">
+      <!-- TOP HEADER PROMOTION AND LANGUAGE SELECTION -->
+      <div class="top-header w3-black w3-row-padding w3-padding-large">
+            <div class="w3-col s9 m10 w3- w3-small w3-bar-item w3-cell w3-cell-middle"><span
+                        class="w3-hide-small">Summer Sale For All Swim
+                        Suits And Free Express Delivery-</span>
+
+                  OFF 50%!
+                  <a href="" class="w3-btn">SHOP NOW</a>
+            </div>
+            <div class=" w3-col s3 m2 w3- w3-bar-item w3-cell w3-cell-middle ">
+                  <select class="w3-select w3-black w3-border-0 w3-small " name="option">
+                        <option value="en" selected>English</option>
+                        <option value="am">Amharic</option>
+                        <option value="am">Arabic</option>
+                  </select>
+            </div>
+
+      </div>
+
+
+      <!-- HEADER MAIN MENU SELECTION WITH SIGN UP, SEARCH AND WISHING -->
+      <div class="header w3-cell-row w3-card-4 w3-padding-16">
+            <div class="w3-cell w3-cell-middle w3-bar w3-col s8 m10">
+                  <!-- <div class="w3-bar-item">Q8STORE</div> -->
+                  <div class="w3-bar-item">
+                        <div class="w3-bar ">
+                              <a href="" class="w3-bar-item w3-button W3-left">Q8STORE</a>
+                              <a href=""
+                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Home</a>
+                              <a href=""
+                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Contact</a>
+                              <a href=""
+                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">About</a>
+                              <a href=""
+                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Sign
+                                    Up</a>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="w3-cell w3-cell-middle  w3-col s4 m2">
+                  <div class="w3-bar w-">
+                        <div class="material-symbols-outlined w3-bar-item w3-right  w3-large">
+                              favorite
+                        </div>
+                        <div class="material-symbols-outlined w3-bar-item w3-right w3-large">
+                              shopping_cart
+                        </div>
+                        <!-- <div class="w3-bar-item w3-right " style="max-width: 200px; font-size: 12px;"><input type="text"
+                                    class="w3-input w3-border w3-large  " placeholder="search here ...">
+                        </div> -->
+                  </div>
+            </div>
+      </div>
+
+
+      <!-- CHECKOUT PAGE -->
+
+      <div class="checkOut w3-row">
+
+
+            <div class="addressDetails w3-padding w3-mobile w3-col m6">
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">First Name</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">Last Name</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">Country</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">City</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">Street</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">Appartment, Floor</label>
+                        <input type="text" class="w3-input w3-round w3-border w3-small">
+                  </div>
+
+                  <div>
+                        <label for="firstName" class="form-control w3-tiny w3-text-gray">Phone</label>
+                        <input type="tel" class="w3-input w3-round w3-border w3-small"
+                              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                  </div>
+                  <div>
+                        <label for=" firstName" class="form-control w3-tiny w3-text-gray">Email</label>
+                        <input type="email" class="w3-input w3-round w3-border w3-small">
+                  </div>
+            </div>
+
+
+
+            <div class="paymentDetailes w3-card w3-panel w3-padding-24 w3-round w3-mobile w3-col m6 ">
+                  <div class="w3-row-padding w3-card w3-padding">
+                        <div class="w3-col s10">
+                              <img src="/101PostgreSQL/images2/hab001.jpg" alt=""
+                                    style="width: 40px; border-radius: 50%;">
+                              <span class="w3-tiny">Lorem ipsum dolor sit</span>
+                        </div>
+                        <div class="w3-col s2">
+                              <span class="w3-small">$100.00</span>
+                        </div>
+                  </div>
+                  <div class="w3-row-padding w3-card w3-padding">
+                        <div class="w3-col s10">
+                              <img src="/images/catagoryImages/cpucooler.jpg" alt=""
+                                    style="width: 40px; border-radius: 50%;">
+                              <span class="w3-tiny">Lorem ipsum dolor sit</span>
+                        </div>
+                        <div class="w3-col s2">
+                              <span class="w3-small">$150.00</span>
+                        </div>
+                  </div>
+                  <div class="w3-row-padding w3-card w3-padding">
+                        <div class="w3-col s10">
+                              <img src="/images/catagoryImages/bookshelf.jpg" alt=""
+                                    style="width: 40px; border-radius: 50%;">
+                              <span class="w3-tiny">Lorem ipsum dolor sit</span>
+                        </div>
+                        <div class="w3-col s2">
+                              <span class="w3-small">$50.00</span>
+                        </div>
+                  </div>
+
+
+
+                  <div class="w3-row-padding w3" style="margin-top: 50px;">
+
+                        <div class="w3-col s10">Subtotal</div>
+                        <div class="w3-col s2 w3-small">$300.00</div>
+                        <hr style="border: 3px solide black;">
+                  </div>
+                  <div class="w3-row-padding">
+                        <div class="w3-col s10">Shipping</div>
+                        <div class="w3-col s2 w3-small">$0.00</div>
+                        <hr style="border: 3px solide black;">
+                  </div>
+                  <div class="w3-row-padding">
+                        <div class="w3-col s10">Total</div>
+                        <div class="w3-col s2 w3-small">$300.00</div>
+                  </div>
+
+                  <div class="w3-row-padding" style="margin-top: 30px;">
+                        <div class="w3-col s6">
+                              <input type="text" class="w3-input w3-round w3-border">
+                        </div>
+                        <div class="w3-col s6">
+                              <input type="submit"
+                                    class="w3-block w3-text-white w3-padding w3-border-0 w3-btn w3-gray w3-round"
+                                    value="Apply Coupon">
+                        </div>
+                  </div>
+
+                  <button class="w3-button w3-block w3-margin-top w3-blue">Place Order</button>
+
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--FOOTER-->
+      <div class="footer w3-black w3-row-padding w3-stretch w3-">
+            <div class="w3 w3-col s6 m3 w3-margin-bottom">
+                  <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Condition</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">What</a></li>
+                  </ul>
+            </div>
+            <div class="w3 w3-col s6 m3 w3-margin-bottom">
+                  <ul>
+                        <li><a href="">Register</a></li>
+                        <li><a href="">Login</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                  </ul>
+            </div>
+
+            <div class="w3-- w3-col s6 m3 w3-margin-bottom">
+                  <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Youtube</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Tictok</a></li>
+                  </ul>
+            </div>
+
+            <div class="w3-- w3-col s6 m3 w3-margin-bottom">
+                  <ul>
+                        <li><a href="">Mastercard</a></li>
+                        <li><a href="">Visa</a></li>
+                        <li><a href="">Dinarclub</a></li>
+                        <li><a href="">Union</a></li>
+                        <li><a href="">Knet</a></li>
+                  </ul>
+            </div>
+
+
+
+      </div>
+      <div class="w3-bar-item w3-mobile w3-small">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, ullam earum
+                  consequatur hic temporibus officia dolorem voluptates iusto illum</p>
+            <div class="copyRight">
+                  <span>Copy Right 2025</span><br>
+                  <span>Design By Future Tecnology Solution-FTS </span>
+            </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html
