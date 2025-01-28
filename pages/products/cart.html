@@ -17,7 +17,56 @@
 
 </head>
 
-<body class="w3-content w3-container">
+<body class="w3-content w3-">
+
+
+      <!-- ! @@@ SIDE MENU DSIPLAY @@@@ ! -->
+      <div class="w3-sidebar  w3-animate-top   w3-gray w3-text-white w3-" style="display: none;" id="sideMenu">
+            <button class="w3-block w3-red w3-btn" onclick="closeMenu()"> Close Menu</button>
+            <div class="w3-cell w3-cell-middle w3-bar w3-col s8 m10">
+                  <!-- <div class="w3-bar-item">Q8STORE</div> -->
+
+                  <div class="w3-bar-item">
+                        <div class="w3-bar-block ">
+
+                              <a href="./home.html"
+                                    class="w3- w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Home</a>
+                              <a href="./contact.html"
+                                    class="w3- w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Contact</a>
+                              <a href="./about.html"
+                                    class="w3- w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">About</a>
+                              <a href="../101PostgreSQL/pages/register.html"
+                                    class="w3- w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                                    style="font-weight: 600; font-style: normal;">Sign
+                                    Up</a>
+
+                              <a href="./pages/login.html" class="w3-bar-item w3-small w3-btn ">Login</a>
+                              <a href="./pages/account.html" class="w3-bar-item w3-small w3-btn ">Account</a>
+
+
+                        </div>
+                  </div>
+            </div>
+
+            <div class="w3-bar-block w3-col m3 l3 w3-cell w3-cell-middle  ">
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Woman's Fashion <span class="w3-right"> >
+                        </span></a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Electronics <span class="w3-right"> > </span></a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Men's Fashion <span class="w3-right"> > </span></a>
+                  <a href="" class="w3-bar-item w3-small w3-btn "> Home & Lifestyle</a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Medicine</a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Sports & Outdoor</a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Baby's & Toys</a>
+                  <a href="" class="w3-bar-item w3-small w3-btn "> Groceries & Pets</a>
+                  <a href="" class="w3-bar-item w3-small w3-btn ">Health & Beauty</a>
+
+            </div>
+      </div>
+      <!-- ! E N D Side menu -->
+
       <!-- TOP HEADER PROMOTION AND LANGUAGE SELECTION -->
       <div class="top-header w3-black w3-row-padding w3-padding-large">
             <div class="w3-col s9 m10 w3- w3-small w3-bar-item w3-cell w3-cell-middle"><span
@@ -38,28 +87,41 @@
       </div>
 
 
+
+
+
       <!-- HEADER MAIN MENU SELECTION WITH SIGN UP, SEARCH AND WISHING -->
       <div class="header w3-cell-row w3-card-4 w3-padding-16">
-            <div class="w3-cell w3-cell-middle w3-bar w3-col s8 m10">
+            <div class="w3-cell w3-cell-middle  w3-col s8 m10">
                   <!-- <div class="w3-bar-item">Q8STORE</div> -->
-                  <div class="w3-bar-item">
-                        <div class="w3-bar ">
-                              <a href="" class="w3-bar-item w3-button W3-left">Q8STORE</a>
-                              <a href=""
-                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
-                                    style="font-weight: 600; font-style: normal;">Home</a>
-                              <a href=""
-                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
-                                    style="font-weight: 600; font-style: normal;">Contact</a>
-                              <a href=""
-                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
-                                    style="font-weight: 600; font-style: normal;">About</a>
-                              <a href=""
-                                    class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
-                                    style="font-weight: 600; font-style: normal;">Sign
-                                    Up</a>
-                        </div>
+
+                  <!-- <a href=""><span class="material-symbols-outlined">menu</span></a> -->
+                  <div class="w3-bar ">
+
+
+                        <button href="" onclick=" openMenu() "
+                              class="w3-bar-item w3-button w3-hide-medium w3-hide-large  "><span
+                                    class="material-symbols-outlined">menu</span>
+                        </button>
+                        <a href="./home.html" class="w3-bar-item w3-button">Q8STORE</a>
+
+
+                        <a href="./home.html"
+                              class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                              style="font-weight: 600; font-style: normal;">Home</a>
+                        <a href="./contact.html"
+                              class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                              style="font-weight: 600; font-style: normal;">Contact</a>
+                        <a href="./about.html"
+                              class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                              style="font-weight: 600; font-style: normal;">About</a>
+                        <a href="../101PostgreSQL/pages/register.html"
+                              class="w3-hide-small w3-bar-item w3-button w3-small w3-hover-black w3-hover-text-white"
+                              style="font-weight: 600; font-style: normal;">Sign
+                              Up</a>
+
                   </div>
+
             </div>
 
             <div class="w3-cell w3-cell-middle  w3-col s4 m2">
@@ -294,7 +356,7 @@
 
 
 
-
+      <script src="/101PostgreSQL/js/script.js"></script>
 
 </body>
 
